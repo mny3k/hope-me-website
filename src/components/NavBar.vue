@@ -1,0 +1,40 @@
+<template>
+  <header>
+    <div class="wrapper">
+      <img class="logo" src="../assets/logo.svg" alt="Vue logo" />
+      <nav>
+        <RouterLink to="/" exact>Home</RouterLink>
+        <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/contact">Contact</RouterLink>
+      </nav>
+    </div>
+  </header>
+</template>
+
+<script setup lang="ts">
+// Your TypeScript code goes here
+import { RouterLink } from 'vue-router'
+</script>
+
+<style scoped>
+/* Your CSS styles go here */
+.wrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 10px;
+  margin: 0;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  margin-right: 20px; /* Add some space between the logo and the nav */
+}
+
+nav {
+  display: flex;
+  gap: 15px; /* Add some space between the nav links */
+}
+</style>
