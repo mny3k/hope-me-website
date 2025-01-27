@@ -1,8 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Anaheim:wght@700&display=swap');
 
+@font-face {
+    font-family: 'Gotham';
+    src: url('src/font/Gotham-Book.eot');
+    src: url('src/font/Gotham-Book.eot?#iefix') format('embedded-opentype'),
+          url('src/font/Gotham-Book.woff2') format('woff2'),
+          url('src/font/Gotham-Book.woff') format('woff'),
+          url('src/font/Gotham-Book.ttf') format('truetype'),
+          url('src/font/Gotham-Book.svg#Gotham-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --green-color: #296d47;
+    --hope-gold: #907d29;
+}
+
 body {
-    background-color: #fffbf9;
-    font-family: 'Anaheim', sans-serif;
-    font-weight: 700;
+    background-color: rgb(236, 230, 218);
     margin: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+h1 {
+    font-family: 'Gotham', sans-serif;
+    font-weight: bold;
+}
+
+p {
+    font-family: 'Anaheim', sans-serif;
+    font-weight: lighter;
+}
+
+h3 {
+    font-family: 'Gotham', sans-serif;
+    font-weight: normal;
+    font-style: oblique;
 }

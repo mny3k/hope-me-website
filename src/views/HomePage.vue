@@ -1,22 +1,37 @@
 <template>
   <div>
     <div class="image-box">
-      <img src="../assets/logo.svg" alt="Vue logo" class="logo" />
+      <img src="../assets/IMG_1737.JPEG" alt="Banner Image" class="banner" />
       <div class="image-gradient"></div>
+      <div class="image-text-box">
+        <h1 class="image-text">CREATE</h1>
+        <h1 class="image-text">RESOLVE</h1>
+        <h1 class="image-text">IMPACT</h1>
+      </div>
     </div>
     <div class="box-1">
-      <h1 class="mission-statement">Mission Statement</h1>
+      <h1 class="mission-statement">Humanizing the World of Evaluation and Research</h1>
+    </div>
+    <div class="box-2">
+      <p>At Hope M&E, we like to blah blah blah</p>
+      <GalleryBox/>
+    </div>
+    <div class="box-3">
+      <h1 class="review-text">Hope M&E are awesome!</h1>
+      <h3>Some Guy</h3>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
 
+import GalleryBox from '@/components/GalleryBox.vue';
+
 </script>
 
 <style scoped>
 .box-1 {
-  background-color: #1d1f3f;
+  background-color: #296d47;
   color: white;
   height: 250px;
   display: flex;
@@ -24,23 +39,53 @@
   align-items: center;
 }
 
+.box-2 {
+  padding: 50px;
+}
+
+.box-3 {
+  background-color: var(--hope-gold);
+  color: white;
+  padding: 50px;
+  text-align: center;
+}
+
+.review-text {
+  font-size: 65px;
+}
+
 .image-box {
   background-color: #ffffff;
   color: white;
-  height: 700px;
+  height: 800px;
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 1;
 }
 
 .image-gradient {
   height: inherit;
-  width: 100%;
-  background: linear-gradient(to bottom, #00000000, #1d1f3f);
+  transition: cubic-bezier();  width: 100%;
+  background: linear-gradient(to bottom, #00000000, #296d47);
   position: absolute;
 }
 
-.logo {
+.banner {
   max-height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.image-text {
+  font-size: 150px;
+  margin: 0;
+  user-select: none;
+}
+
+.image-text-box {
+  position: absolute;
+  right: 30px;
+  text-align: right;
 }
 </style>

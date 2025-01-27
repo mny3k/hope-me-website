@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { RouterView } from 'vue-router'
 import NavBar from './components/NavBar.vue'
+import FooterBar from './components/FooterBar.vue';
 
 </script>
 
@@ -8,6 +9,7 @@ import NavBar from './components/NavBar.vue'
   <div class="container">
     <NavBar class="navbar"/>
     <RouterView class="router-view"/>
+    <FooterBar class="footer-bar"/>
   </div>
 </template>
 
@@ -18,5 +20,8 @@ import NavBar from './components/NavBar.vue'
     left: 0;
     width: 100%;
     z-index: 1000;
+  }
+  .footer-bar {
+    margin: 0;
   }
 </style>

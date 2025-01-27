@@ -3,9 +3,9 @@
     <div class="wrapper">
       <img class="logo" src="../assets/logo.svg" alt="Vue logo" />
       <nav>
-        <RouterLink to="/" exact>Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-        <RouterLink to="/contact">Contact</RouterLink>
+        <RouterLink to="/" exact class="nav-link">Home</RouterLink>
+        <RouterLink to="/about" class="nav-link">About</RouterLink>
+        <RouterLink to="/contact" class="nav-link">Contact</RouterLink>
       </nav>
     </div>
   </header>
@@ -36,5 +36,21 @@ import { RouterLink } from 'vue-router'
 nav {
   display: flex;
   gap: 15px; /* Add some space between the nav links */
+  height: 100%;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-family: "Gotham", sans-serif;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 5px;
+  height: 100%;
+}
+
+.nav-link:hover {
+  background-color: rgba(0, 0, 0, 0.265);
+  transition: all 300ms ease;
 }
 </style>
