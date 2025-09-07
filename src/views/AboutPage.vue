@@ -3,38 +3,39 @@
     <div class="about-info">
       <div class="spacer"></div>
       <h1>ABOUT US</h1>
-      <h3>Welcome to our research firm. We specialize in providing top-notch research services to our clients.</h3>
+      <h3>
+        Welcome to our research firm. We specialize in providing top-notch
+        research services to our clients.
+      </h3>
       <p>Founded in 2024, blah blah blah</p>
     </div>
     <section class="team">
       <h2>Our Team</h2>
-        <div class="team-member">
-          <img class="team-image" src="../assets/MarthaPicture.jpg">
-          <div class="team-member-info">
-            <h2>Martha Hernandez Martinez</h2>
-            <h3>CEO</h3>
-            <p>Martha is the founder, she does a lot of work, etc. etc. etc.</p>
-          </div>
+      <div class="team-member">
+        <img class="team-image" src="../assets/MarthaPicture.jpg" />
+        <div class="team-member-info">
+          <h2>Martha Hernandez Martinez</h2>
+          <h3>CEO</h3>
+          <p>Martha is the founder, she does a lot of work, etc. etc. etc.</p>
         </div>
-        <div class="team-member">
-          <img class="team-image" src="../assets/ErickPicture.jpg">
-          <div class="team-member-info">
-            <h2>Erick</h2>
-            <h3>Something</h3>
-            <p>Erick is another founder, he does a lot of work too, etc.</p>
-          </div>
+      </div>
+      <div class="team-member">
+        <img class="team-image" src="../assets/ErickPicture.jpg" />
+        <div class="team-member-info">
+          <h2>Erick</h2>
+          <h3>Something</h3>
+          <p>Erick is another founder, he does a lot of work too, etc.</p>
         </div>
+      </div>
     </section>
   </div>
 </template>
 
-<script setup lang="ts">
-
-</script>
+<script setup lang="ts"></script>
 
 <style scoped>
 .spacer {
-  height: 100px;
+  height: 120px;
 }
 .team {
   margin-top: 20px;

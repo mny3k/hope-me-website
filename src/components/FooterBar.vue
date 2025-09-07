@@ -2,7 +2,7 @@
   <div>
     <div class="first-bar">
       <div class="first-bar-text">
-        <h1>HOPE M&E</h1>
+        <h2>HOPE M&E</h2>
         <h3>Evaluation and Research</h3>
         <!-- Bird Logo on the far right -->
       </div>
@@ -15,19 +15,25 @@
   </div>
 </template>
 
-<script setup lang="ts">
-
-</script>
+<script setup lang="ts"></script>
 
 <style scoped>
 .first-bar {
-  background-color: var(--green-color);
+  background-color: var(--hope-green);
   margin: 0;
   height: 100%;
-  padding: 20px;
+  padding: 10px;
 }
-h1, h3 {
+h1,
+h2,
+h3 {
   color: white;
+}
+
+.first-bar-text {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .second-bar {
@@ -51,5 +57,4 @@ h1, h3 {
 #third {
   background-color: #907d29;
 }
-
 </style>

@@ -1,7 +1,7 @@
 <template>
   <header>
     <div class="wrapper">
-      <img class="logo" src="../assets/logo.svg" alt="Vue logo" />
+      <img class="logo" src="../assets/Full-color-Sin-tag.png" alt="Logo" />
       <nav>
         <RouterLink to="/" exact class="nav-link">Home</RouterLink>
         <RouterLink to="/about" class="nav-link">About</RouterLink>
@@ -13,7 +13,7 @@
 
 <script setup lang="ts">
 // Your TypeScript code goes here
-import { RouterLink } from 'vue-router'
+import { RouterLink } from "vue-router";
 </script>
 
 <style scoped>
@@ -28,8 +28,8 @@ import { RouterLink } from 'vue-router'
 }
 
 .logo {
-  width: 100px;
-  height: auto;
+  width: auto;
+  height: 100px;
   margin-right: 20px; /* Add some space between the logo and the nav */
 }
 
