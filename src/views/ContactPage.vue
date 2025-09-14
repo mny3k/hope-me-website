@@ -7,9 +7,7 @@
     <div class="contact-info">
       <h1>Contact Information</h1>
       <p>If you have any questions, feel free to reach out to us at:</p>
-      <p><strong>Email:</strong> contact@hope-me-website.com</p>
-      <p><strong>Phone:</strong> +1 (555) 123-4567</p>
-      <p><strong>Address:</strong> 123 Hope Street, Dream City, DC 12345</p>
+      <p><strong>Email:</strong> mhernandez@hope-me.org</p>
     </div>
   </div>
 </template>

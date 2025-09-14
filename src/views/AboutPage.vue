@@ -4,10 +4,15 @@
       <div class="spacer"></div>
       <h1>ABOUT US</h1>
       <h3>
-        Welcome to our research firm. We specialize in providing top-notch
-        research services to our clients.
+        Hope M&E is a bilingual Latino-Led organization based
+        in Minnesota, <br> specializing in evaluation and research with
+        services offered locally and nationally.
       </h3>
-      <p>Founded in 2024, blah blah blah</p>
+      <p>
+        Founded in 2024, we believe that evaluation and research should equip staff, <br>
+        founders, leaders, beneficiaries, and community members to make <br>
+        informed decisions that effectively address the challenges they face.
+      </p>
     </div>
     <section class="team">
       <h2>Our Team</h2>
@@ -16,7 +21,24 @@
         <div class="team-member-info">
           <h2>Martha Hernandez Martinez</h2>
           <h3>CEO</h3>
-          <p>Martha is the founder, she does a lot of work, etc. etc. etc.</p>
+          <p>Martha is the Founder and CEO of Hope M&E Evaluation and Research LLC.,
+            a bilingual expert with over two decades of experience driving social change
+            as a researcher, evaluator, and advocate. <br>
+            Originally from Nicaragua, her career spans national work as a trainer,
+            community organizer, and policy advocate, giving her a unique, ground-level
+            perspectiveon community transformation. <br>
+            Her specialized research and advocacy focus on critical issues including
+            intimate partner violence, masculinities, human trafficking, and the impact
+            of public policy on women's lives. She is deeply committed to creating tangible
+            change in gender-based violence prevention, community development,
+            women’s entrepreneurship, and housing equity. <br>
+            A published thought leader, her work has appeared in renowned journals such
+            as New Directions for Evaluation, Women & Therapy, Psychology of Violence,
+            and the Journal of Family Violence. <br>
+            Martha holds a Master of Public Affairs from the University of Minnesota and a
+            Licensure in Psychology from the National Autonomous University of Nicaragua.
+            This blend of academic rigor and grassroots experience establishes her as a
+            trusted and innovative leader in her field.</p>
         </div>
       </div>
       <div class="team-member">

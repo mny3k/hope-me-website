@@ -13,12 +13,17 @@
       <h1 class="mission-statement">Humanizing the World of Evaluation and Research</h1>
     </div>
     <div class="box-2">
-      <p>At Hope M&E, we like to blah blah blah</p>
+      <p>At Hope M&E, we believe evaluation and research should equip staff, founders,
+leaders, beneficiaries, and community members to make
+informed decisions that effectively address the challenges
+they face.</p>
       <GalleryBox/>
     </div>
     <div class="box-3">
-      <h1 class="review-text">Hope M&E are awesome!</h1>
-      <h3>Some Guy</h3>
+      <h1 class="review-text">
+        To humanize evaluation and research processes
+      </h1>
+      <h3>Our Mission</h3>
     </div>
   </div>
 </template>
