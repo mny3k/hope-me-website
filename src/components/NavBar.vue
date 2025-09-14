@@ -1,7 +1,7 @@
 <template>
   <header>
     <div class="wrapper">
-      <img class="logo" src="../assets/Full-color-Sin-tag.png" alt="Logo" />
+      <img class="logo" src="../assets/WhiteLogo.png" alt="Logo" />
       <nav>
         <RouterLink to="/" exact class="nav-link">Home</RouterLink>
         <RouterLink to="/about" class="nav-link">About</RouterLink>
@@ -30,7 +30,8 @@ import { RouterLink } from "vue-router";
 .logo {
   width: auto;
   height: 100px;
-  margin-right: 20px; /* Add some space between the logo and the nav */
+  margin: 10px;
+  margin-right: 20px;
 }
 
 nav {
