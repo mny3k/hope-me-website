@@ -10,28 +10,27 @@
       </div>
     </div>
     <div class="box-1">
-      <h1 class="mission-statement">Humanizing the World of Evaluation and Research</h1>
+      <h1 class="mission-statement">
+        Humanizing the World of Evaluation and Research
+      </h1>
     </div>
     <div class="box-2">
-      <p>At Hope M&E, we believe evaluation and research should equip staff, founders,
-leaders, beneficiaries, and community members to make
-informed decisions that effectively address the challenges
-they face.</p>
-      <GalleryBox/>
+      <p>
+        At Hope M&E, we believe evaluation and research should equip staff,
+        founders, leaders, beneficiaries, and community members to make informed
+        decisions that effectively address the challenges they face.
+      </p>
+      <GalleryBox />
     </div>
     <div class="box-3">
-      <h1 class="review-text">
-        To humanize evaluation and research processes
-      </h1>
+      <h1 class="review-text">To humanize evaluation and research processes</h1>
       <h3>Our Mission</h3>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
-
-import GalleryBox from '@/components/GalleryBox.vue';
-
+import GalleryBox from "@/components/GalleryBox.vue";
 </script>
 
 <style scoped>
@@ -71,7 +70,8 @@ import GalleryBox from '@/components/GalleryBox.vue';
 
 .image-gradient {
   height: inherit;
-  transition: cubic-bezier();  width: 100%;
+  transition: cubic-bezier();
+  width: 100%;
   background: linear-gradient(to bottom, #00000000, #296d47);
   position: absolute;
 }
@@ -79,11 +79,12 @@ import GalleryBox from '@/components/GalleryBox.vue';
 .banner {
   max-height: 100%;
   width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 
 .image-text {
-  font-size: 150px;
+  font-size: 10vw;
   margin: 0;
   user-select: none;
 }
