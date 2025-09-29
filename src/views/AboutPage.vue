@@ -19,7 +19,7 @@
     <section class="team">
       <h2>Our Team</h2>
       <div class="team-member">
-        <img class="team-image" src="../assets/MarthaPicture.jpg" />
+        <img class="team-image" src="../assets/M001_V2.jpg" />
         <div class="team-member-info">
           <h2>Martha Hernandez Martinez</h2>
           <h3>CEO</h3>
