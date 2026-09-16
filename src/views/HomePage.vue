@@ -20,12 +20,12 @@
         founders, leaders, beneficiaries, and community members to make informed
         decisions that effectively address the challenges they face.
       </p>
-      <GalleryBox />
     </div>
     <div class="box-3">
       <h1 class="review-text">To humanize evaluation and research processes</h1>
       <h3>Our Mission</h3>
     </div>
+    <GalleryBox />
   </div>
 </template>
 
