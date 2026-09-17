@@ -6,7 +6,7 @@
 at Freedom Network USA. Her collaborative approach and ability to translate evaluation and survey data into actionable
 insights have helped us refine our training and technical assistance strategies, making our delivery more responsive and
 effective."</p>
-      <p class="card-name">- Rachel Ostergaard, Freedom Network USA</p>
+      <p class="card-name">- Freedom Network USA</p>
      <img class="card-logo" src="../assets/FNUSALogo.png"/>
      </div>
   </div>
